@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+venv/
+
+# Build
+.next/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+coverage/
+
+# Misc
+*.pem
